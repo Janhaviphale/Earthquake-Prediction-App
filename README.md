@@ -1,4 +1,4 @@
- 🌍 AI Earthquake Prediction System
+ ##🌍 AI Earthquake Prediction System
 
 An advanced AI + Machine Learning based Earthquake Prediction and Monitoring System that uses real-time seismic data from USGS and provides intelligent analytics, visualization, and anomaly detection.
 
