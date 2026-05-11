@@ -52,32 +52,67 @@ EarthquakePrediction/
 ├── requirements.txt
 
 ## ▶️ How to Run Project
-
-### Step 1: Install dependencies
-
-pip install -r requirements.txt
-Step 2: Run application
+ Step :  Run application
 streamlit run app.py
 
-📊 Output Screenshots
-🔹 Dashboard View
-Total Earthquakes
-Average Magnitude
-Maximum Magnitude
-Live alerts for high-risk earthquakes
-🔹 Visualization Output
-Depth vs Magnitude Graph
-Magnitude Distribution Histogram
-Risk Pie Chart
-Trend Line Graph
-🔹 Live Map Output
-Earthquake locations marked on world map
-Color-coded markers:
-🟢 Low Risk
-🟡 Medium Risk
-🔴 High Risk
-🔹 Heatmap Output
-Dense seismic activity zones highlighted
+📊 OUTPUT (Project Results)
+
+🏠 1. Dashboard Output
+The dashboard displays real-time earthquake statistics:
+<img width="1827" height="876" alt="image" src="https://github.com/user-attachments/assets/484d53ed-602a-4ab0-b92b-5d10cb0fb26f" />
+<img width="1853" height="781" alt="image" src="https://github.com/user-attachments/assets/bde27a28-0eaf-46cd-a651-b82fc2b4127b" />
+
+📈 2. Data Visualization Output
+The system generates analytical graphs:
+<img width="1847" height="845" alt="image" src="https://github.com/user-attachments/assets/01703a7c-f3b7-4665-87fc-8d979dc414aa" />
+<img width="1393" height="556" alt="image" src="https://github.com/user-attachments/assets/9baba4ef-ffeb-4dec-addd-cb5c94e2ef3c" />
+
+🗺️ 3. Live Map Output
+Interactive world map showing earthquake locations:
+<img width="1832" height="840" alt="image" src="https://github.com/user-attachments/assets/bf54d300-f581-4a52-881d-988dfa257821" />
+
+🟢 Green Marker → Low Risk
+🟡 Yellow Marker → Medium Risk
+🔴 Red Marker → High Risk
+Each marker displays:
+Location
+Magnitude
+Depth
+Timestamp
+
+🔥 4. Heatmap Output
+<img width="1793" height="823" alt="image" src="https://github.com/user-attachments/assets/69de5304-da71-495a-bf56-6aa3d7d98f74" />
+Shows high-density seismic zones
+Identifies earthquake-prone regions globally
+Highlights clusters of seismic activity
+
+🤖 5. AI Prediction Output
+Machine Learning model predicts earthquake risk based on:
+<img width="1480" height="707" alt="image" src="https://github.com/user-attachments/assets/97f2d8ee-06a3-4589-a9c1-8d0cadc3401c" />
+Latitude
+Longitude
+Depth
+Example Output:
+
+Predicted Magnitude: 5.3  
+Risk Level: Moderate
+
+🚨 6. Alert System Output
+
+When a high-risk earthquake is detected:
+
+📧 Email Alert Sent:
+Subject: ⚠ Earthquake Alert Notification
+
+Message:
+High magnitude earthquake detected!
+
+Location: [Latitude, Longitude]
+Magnitude: 6.8
+Risk Level: HIGH
+
+Please take necessary precautions.
+
 🔹 AI Prediction Output
 Predicted magnitude based on:
 Latitude
