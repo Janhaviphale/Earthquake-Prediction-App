@@ -3,12 +3,8 @@
 
 An advanced AI + Machine Learning based Earthquake Prediction and Monitoring System that uses real-time seismic data from USGS and provides intelligent analytics, visualization, and anomaly detection.
 
----
-
 ## 👩‍💻 Author
 **Janhavi Phale**
-
----
 
 ## 🚀 Project Overview
 
@@ -18,8 +14,6 @@ This project is designed to:
 - Detect anomalies in earthquake patterns
 - Visualize earthquake data using maps and graphs
 - Provide dashboard analytics for decision making
-
----
 
 ## ⚙️ Features
 
@@ -33,8 +27,6 @@ This project is designed to:
 - 📧 Email Alert System
 - 🎯 Risk Level Classification
 
----
-
 ## 🧠 Technologies Used
 
 - Python
@@ -47,10 +39,7 @@ This project is designed to:
 - Requests
 - USGS Earthquake API
 
----
 ## 📂 Project Structure
-
-
 EarthquakePrediction/
 │
 ├── app.py
@@ -62,15 +51,14 @@ EarthquakePrediction/
 │ └── earthquake_data.csv
 ├── requirements.txt
 
----
-
 ## ▶️ How to Run Project
 
 ### Step 1: Install dependencies
-```bash
+
 pip install -r requirements.txt
 Step 2: Run application
 streamlit run app.py
+
 📊 Output Screenshots
 🔹 Dashboard View
 Total Earthquakes
@@ -111,21 +99,3 @@ Live notification appears in UI
 Example Alert:
 
 ⚠️ ALERT: High Magnitude Earthquake Detected!
-🎯 Conclusion
-
-This system demonstrates how AI and Machine Learning can be used for:
-
-Disaster prediction
-Real-time monitoring
-Data visualization
-Early warning systems
-
-It is suitable for:
-
-Final Year Project
-AI/ML Portfolio
-Research Demonstrationj
-👩‍💻 Developed By Janhavi Phale
-
-Janhavi Phale
-## 📂 Project Structure
