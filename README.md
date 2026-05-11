@@ -94,8 +94,8 @@ Longitude
 Depth
 Example Output:
 
-Predicted Magnitude: 5.3  
-Risk Level: Moderate
+Predicted Magnitude: 4.18 
+Risk Level: Moderate 
 
 🚨 6. Alert System Output
 
